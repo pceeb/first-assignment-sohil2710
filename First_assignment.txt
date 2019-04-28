@@ -9,33 +9,46 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 II. Answer the following question. What does this do?   
 
 1. ls [A-Z]* - Shows all files that begin with upper-case letters
+# Correct!
  
 2. cp *.sh /tmp - copies everything from shell scipt to a temporary directory
-
+# Not everything just .sh files
+ 
 3. man pwd - opens the manual page for 'pwd' command
+# Correct!
 
 4. cd ~  - change to home directory
+# Correct!
 
 5. mkdir -p /test1/test2/test3 - make parent directory in the order in which it is written
- 
+# Correct! But what is -p doing 
+
 6. cp -r /tmp - copy directories recursively into temporary directory
+# Correct!
 
 7. ls | less - listing all the files/directories and using that as an input for 'less' command which prints
+# Correct!
 
 8. head -n 24 test.txt » abc.txt - print and then append the first 24 lines of test.txt to abc.txt
+# Correct!
 
 9. echo "aaa" > aaa.txt - outputs "aaa" to the file aaa.txt
+# Correct!
 
 10. ps -u sallesina - provides information of currently running processes for user: sallesina
+# Correct! Try this in hoffman
 
 11. top - displays processor activity and information about memory utilization
+# Correct! Try this in hoffman
 
 12. ls | grep .sh | xargs mv /tmp - lists and then copies everything from shell script and then moves it to temporary directory
+# What is xargs doing
 
 13. du -sk /home/* | sort -r -n | head -10 - estimate file space usage for the sum of directories under 'home' in kilobytes. Then sort in order of size and print the first 10
+# Correct!
 
 14. sort -r names.txt - sort and then reverse the lines in names.txt≈
-
+# Correct!
 
 **IMPORTANT** 
 To submit your answers you must do the following:
